@@ -1,11 +1,12 @@
-# c64_bracket_theme
+# DarkSoda
+
 
 * C64 is a Dark Theme for Brackets!
 
 
 # How to install
 
-Visit https://github.com/DerFu to see the latest install instructions.
+Visit https://github.com/DerFu/c64_bracket_theme/ to see the latest install instructions.
 
 # Troubleshooting
 
@@ -24,12 +25,12 @@ Visit https://github.com/DerFu to see the latest install instructions.
 
 ### HTML
 
-![HTML Screenshot](https://github.com/Brackets-Themes/DarkSoda/blob/master/screenshots/HTML.png)
+![HTML Screenshot](https://github.com/DerFu/c64_bracket_theme/screenshots/HTML.png)
 
 ### CSS
 
-![CSS Screenshot](https://github.com/Brackets-Themes/DarkSoda/blob/master/screenshots/CSS.png)
+![CSS Screenshot](https://github.com/DerFu/c64_bracket_theme/screenshots/CSS.png)
 
 ### JavaScript
 
-![JS Screenshot](https://github.com/Brackets-Themes/DarkSoda/blob/master/screenshots/JS.png)
+![JS Screenshot](https://github.com/DerFu/c64_bracket_theme/screenshots/JS.png)

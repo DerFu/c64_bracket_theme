@@ -1,6 +1,6 @@
 # C64
 
-* C64 is a Dark Theme for Brackets!
+* C64 is a Theme for Brackets!
 
 
 # How to install

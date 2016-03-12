@@ -1,0 +1,21 @@
+{
+    "title": "C64",
+    "name": "c64_theme",
+    "description": "old school",
+    "version": "0.0.1",
+    "author": "Fu",
+    "homepage": "http://www.funami.de",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:DerFu/c64_bracket_theme.git"
+    },
+    "license": "CC",
+    "engines": {
+        "brackets": ">=1.0.0"
+    },
+    "theme": {
+        "file": "c64.css",
+        "dark": true
+    }
+}
+

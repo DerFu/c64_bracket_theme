@@ -1,0 +1,208 @@
+/**
+*
+* Theme C64 by Fu
+* www.funami.de
+* based on DARK SODA
+*
+*/
+
+
+/*
+  _   _   _  __  __    _                _         ___      _   _ 
+ |_) |_) |_ (_  (_    |_) |   /\ \_/   / \ |\ |    |  /\  |_) |_ 
+ |   | \ |_ __) __)   |   |_ /--\ |    \_/ | \|    | /--\ |   |_ 
+                                                                 
+*/
+
+
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+    font-family: 'C64 PRO MONO' !important;
+    background: #0000d0;
+    color: #9090e0;
+}
+
+.CodeMirror .CodeMirror-scroll .CodeMirror-gutters {
+    background:#0000d0; 
+    border-right:0px solid #0000d0;
+}
+
+/*Left vertical bar with line count*/
+
+
+.CodeMirror-scrollbar-filler {
+    height:10px !important; 
+    width:10px !important;
+}
+
+.inlineEditorHolder > div > .CodeMirror-wrap {
+    background: #0000d0;
+    color:#9090e0 !important;
+}
+
+.inlineEditorHolder .CodeMirror-linenumber {
+    background: #0000d0 !important;
+}
+
+.inline-widget .CodeMirror-gutter {
+    background: #0000d0 !important;
+}
+
+.divider-holder .divider {
+    margin-left: 12px;
+    width: 0;
+    height: 100%;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 73, 73);
+}
+
+.css-prop-defn code {
+    font-size: 12px;
+    color: rgb(197, 197, 197);
+    background: none;
+    padding: 0;
+}
+
+code {
+    padding: 2px 4px;
+    white-space: nowrap;
+}
+
+.css-prop-defn h1 {
+    color: rgb(219, 219, 219);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 15px 0 9px 0;
+}
+
+.css-prop-defn {
+    color: rgb(197, 197, 197);
+    cursor: auto;
+    font-size: 14px;
+}
+
+.css-prop-values dl dt {
+    color: rgb(219, 219, 219);
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+/* Colors */
+.CodeMirror { background: #0000d0; color: #9090e0; }
+.cm-error{ color: #c00000 !important; }
+.cm-keyword {color: #9090e0;}
+.cm-atom {color: #9090e0;}
+.cm-number {color: #9090e0;}
+.cm-def {color: #9090e0;}
+.cm-variable {color: #9090e0;}
+.cm-variable-2 {color: #9090e0;}
+.cm-property {color: #9090e0;}
+.cm-operator {color: #9090e0;}
+.cm-comment {color: #9090e0;}
+.cm-string {color: #9090e0;}
+.cm-string-2 {color: #9090e0;}
+.cm-meta {color: #9090e0;}
+.cm-qualifier, .cm-builtin {color: #9090e0;}
+.cm-bracket {color: #9090e0;}
+.cm-tag {color: #9090e0;}
+.cm-attribute {color: #9090e0;}
+.cm-matchhighlight {background-color: rgb(61,61,61); background-color: rgba(61,61,61,0.23);}
+.CodeMirror-selected{background-color: rgb(224,240,250); background-color: rgba(224, 240, 250, 0.2) !important;} 
+/*Selected lines - may need !important*/
+.CodeMirror-matchingbracket {
+    color: #a7ec21;
+}
+
+.CodeMirror-matchingtag {
+    color: #c00000;
+}
+
+
+.CodeMirror-linenumber, .CodeMirror-gutters{
+    color: #ffffff;
+    background-color: #242424;
+}
+
+.CodeMirror .CodeMirror-linenumber {
+    padding: 0 5px 0 0px;
+    border-right: 4px solid #9090e0;
+    color: #9090e0;
+    background: #0000d0;
+}
+
+.CodeMirror-activeline-background, .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background-color: rgb(0, 168, 198);
+    background-color: rgba(0, 168, 198, 0.29) !important;
+}
+
+.CodeMirror .CodeMirror-cursor {
+    border-left: 1px solid #ff007f;
+    z-index: -3;
+}
+
+.CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none;
+    border-bottom: 2px solid #ff007f;
+    z-index: -3;
+}
+
+/* Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)*/
+.CodeMirror .cm-dk-whitespace-space::before,
+.CodeMirror .cm-dk-whitespace-tab::before,
+.CodeMirror .cm-dk-whitespace-leading-space::before,
+.CodeMirror .cm-dk-whitespace-leading-tab::before,
+.CodeMirror .cm-dk-whitespace-trailing-space::before,
+.CodeMirror .cm-dk-whitespace-trailing-tab::before {
+    background-color: #9090e0 !important;
+}
+
+/* Code Folding (https://github.com/thehogfather/brackets-code-folding)*/
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter-blank,
+.CodeMirror-foldgutter-folded,
+.CodeMirror-foldgutter-open {
+color: #9090e0;
+}
+
+.CodeMirror-foldgutter-open::after {content: "\25bd";}
+.CodeMirror-foldmarker {background-color: #00A8C6; border-color: #5C5C5C; color: #ede0ce; padding: 0 10px;}
+
+
+/* New Class for Brackets 0.43 (searching)*/
+
+.CodeMirror-searching {background-color: #38b2ff; border-bottom: 2px solid #FF5D38; font-weight: bolder;}
+.searching-current-match {background-color: #ede0ce;}
+.quick-view-highlight {background-color: transparent; border-bottom: 2px solid #FF5D38;}
+
+
+/*
+
+LOAD="$",8,1
+PRESS PLAY ON TAPE
+
+
+16 shades of c64
+
+#000000
+#ffffff
+#c00000
+#00b0b0
+#a000a0
+#00a000
+#0000d0
+#d0d000
+#b07000
+#905000
+#d0d0d0
+#e09090
+#505050
+#909090
+#90e090
+#9090e0
+#9090e0
+#d0d0d0
+
+*/

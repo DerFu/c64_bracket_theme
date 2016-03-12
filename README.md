@@ -25,12 +25,12 @@ Visit https://github.com/DerFu/c64_bracket_theme/ to see the latest install inst
 
 ### HTML
 
-![HTML Screenshot](https://github.com/DerFu/c64_bracket_theme/screenshots/HTML.png)
+![HTML Screenshot](https://github.com/DerFu/c64_bracket_theme/HTML.png)
 
 ### CSS
 
-![CSS Screenshot](https://github.com/DerFu/c64_bracket_theme/screenshots/CSS.png)
+![CSS Screenshot](https://github.com/DerFu/c64_bracket_theme/CSS.png)
 
 ### JavaScript
 
-![JS Screenshot](https://github.com/DerFu/c64_bracket_theme/screenshots/JS.png)
+![JS Screenshot](https://github.com/DerFu/c64_bracket_theme/JS.png)
